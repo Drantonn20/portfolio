@@ -1,0 +1,188 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #e4e5e5;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    width: 15vw;
+    position: sticky;
+    top: 20px;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+a {
+    font-family: 'Charis SIL', serif;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.titre {
+    margin-top: 30vh;
+    margin-left: 10vw;
+    font-size: 55px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Projet1 {
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#image1 {
+    height: 500px;
+    width: 700px;
+    margin-left: 5vw;
+}
+
+#text1 {
+    margin-top: 10vh;
+}
+#title1 {
+    margin-bottom: 2vw;
+    text-decoration: underline;
+}
+
+#para1 {
+    width: 21vw;
+}
+
+#techno1 {
+    margin-left: 14vw;
+}
+
+
+
+
+
+#Projet2 {
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#image2 {
+    width: 400px;
+    height: 500px;
+    margin-left: 5vw;
+}
+#text2 {
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+
+#title2 {
+    margin-left: 14vw;
+    margin-bottom: 2vw;
+    text-decoration: underline;
+}
+#para2 {
+    width: 21vw;
+}
+
+
+
+
+
+
+
+
+
+
+#Projet3 {
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#image3 {
+    height: 400px;
+    width: 600px;
+    margin-left: 5vw;
+}
+
+#text3 {
+    margin-top: 10vh;
+}
+
+#title3 {
+    margin-left: 14vw;
+    margin-bottom: 2vw;
+    text-decoration: underline;
+}
+
+#para3 {
+    width: 21vw;
+    margin-left: 5vw;
+}
+
+#techno3 {
+    margin-left: 14vw;
+}
+
+
+
+#Projet4 {
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#image4 {
+    height: 400px;
+    width: 600px;
+    margin-left: 5vw;
+}
+
+#text4 {
+    margin-top: 10vh;
+}
+
+#title4 {
+    margin-left: 14vw;
+    margin-bottom: 2vw;
+    text-decoration: underline;
+}
+
+#para4 {
+    width: 21vw;
+    margin-left: 5vw;
+}
+
+#techno4 {
+    margin-left: 14vw;
+}
+

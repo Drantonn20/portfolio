@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #e4e5e5;
+    flex-wrap: wrap;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    width: 15vw;
+    position: sticky;
+    top: 20px;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+a {
+    font-family: 'Charis SIL', serif;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#name {
+    font-weight: bold;
+}
+h1  {
+    margin-left: 3vw;
+    margin-top: 40vh;
+    width: 9vw;
+    color: gray;
+}
+
+#description {
+    width: 9vw;
+    margin-left:1vw;
+    margin-top: 70vh;
+    color: gray;
+}
+
+.contacter {
+    position: sticky;
+    top: 90vh;
+    margin-left: 7vw;
+}
+
+
+#image1 {
+    height: 719px;
+    width: 514px;
+    margin-left:10vw;
+    margin-top: 20vh;
+}
+
